@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {
+    margin: 0%;
+    background-image: url('https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+.genCont {
+    display: flex;
+    flex-direction: row;
+}
+
+.appCont {
+    margin: 0%;
+}
+
+.header {
+    background-image: url('https://images.unsplash.com/photo-1543332164-6e82f355badc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3900&q=80');
+    margin: 0%;
+    height: 150px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 10px 5px -5px #36454f;
+}
+
+.header > p {
+    margin: 0%;
+    color: black;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+    font-size: 45px;
+}
+
+button {
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #36454f;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 900;
+}
+
+.imgDisp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #36454f;
+}
+
+.imgUrl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    background: no-repeat center center ;
+    background-size: 500px 500px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 10px 5px 5px #36454f;
+}
+
+.userMeme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background: no-repeat center center ;
+    background-size: 300px 300px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 10px 5px 5px #36454f;
+}
+
+input {
+    height: 30px;
+    width: 65px;
+    transition: width 200ms;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #36454f;
+}
+input:focus {
+    width: 175px;
+    outline: none;
+}
+
+.formTopText {
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+.formBottomText {
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+.memeTopText {
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+.memeBottomText {
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+.memeList {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.memeCont {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
